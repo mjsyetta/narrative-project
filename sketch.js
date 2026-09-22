@@ -19,7 +19,7 @@ let flipcount14 = 0;
 let framecount14 = 0;
 
 //load font
-let url = "https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap.googleapis.com/css2?family=Jacquard+12&display=swap";
+let url = "https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap";
 let ravenfont;
 
 //load sounds
