@@ -153,7 +153,7 @@ let curt = {
 async function setup() {
     //load font
     font = await loadFont(url);
-    //ravenfont = await loadFont('/assets/drac.ttf');
+    ravenfont = await loadFont('./assets/drac.ttf');
 
     //load and parse .txt file
     fullText = await loadStrings('./assets/theRaven.txt');
