@@ -156,47 +156,47 @@ async function setup() {
     ravenfont = await loadFont('/assets/drac.ttf');
 
     //load and parse .txt file
-    fullText = await loadStrings('/assets/theRaven.txt');
+    fullText = await loadStrings('./assets/theRaven.txt');
     fullText = fullText.join('\n');
     paragraphs = fullText.split('\n\n');
 
     //load sound effects
-    audiotest = await loadSound('/assets/audiotest.mp3');
-    ambience = await loadSound('/assets/ambience.mp3');
-    sound0 = await loadSound('/assets/sound0.mp3');
-    sound1 = await loadSound('/assets/sound1.mp3');
-    sound2 = await loadSound('/assets/sound2.mp3');
-    sound3 = await loadSound('/assets/sound3.mp3');
-    sound5 = await loadSound('assets/sound5.mp3');
-    sound6 = await loadSound('/assets/sound6.mp3');
-    sound7 = await loadSound('/assets/sound7.mp3');
-    sound9 = await loadSound('/assets/sound9.mp3');
-    sound10 = await loadSound('/assets/sound10.mp3');
-    sound11 = await loadSound('/assets/sound11.mp3');
-    sound12 = await loadSound('/assets/sound12.mp3');
-    sound13 = await loadSound('/assets/sound13.mp3');
+    audiotest = await loadSound('./assets/audiotest.mp3');
+    ambience = await loadSound('./assets/ambience.mp3');
+    sound0 = await loadSound('./assets/sound0.mp3');
+    sound1 = await loadSound('./assets/sound1.mp3');
+    sound2 = await loadSound('./assets/sound2.mp3');
+    sound3 = await loadSound('./assets/sound3.mp3');
+    sound5 = await loadSound('./assets/sound5.mp3');
+    sound6 = await loadSound('./assets/sound6.mp3');
+    sound7 = await loadSound('./assets/sound7.mp3');
+    sound9 = await loadSound('./assets/sound9.mp3');
+    sound10 = await loadSound('./assets/sound10.mp3');
+    sound11 = await loadSound('./assets/sound11.mp3');
+    sound12 = await loadSound('./assets/sound12.mp3');
+    sound13 = await loadSound('./assets/sound13.mp3');
 
     //load images
-    headphones = await loadImage('/assets/headphones.png');
-    rightarrow = await loadImage('/assets/rightarrow.png');
+    headphones = await loadImage('./assets/headphones.png');
+    rightarrow = await loadImage('./assets/rightarrow.png');
 
-    curtain = await loadImage('/assets/curtain.png');
+    curtain = await loadImage('./assets/curtain.png');
 
-    dooropen = await loadImage('/assets/dooropen.png');
-    doorclose = await loadImage('/assets/doorclose.png');
+    dooropen = await loadImage('./assets/dooropen.png');
+    doorclose = await loadImage('./assets/doorclose.png');
 
-    windowopen = await loadImage('/assets/windowopen.png');
-    windowclose = await loadImage('/assets/windowclose.png');
+    windowopen = await loadImage('./assets/windowopen.png');
+    windowclose = await loadImage('./assets/windowclose.png');
 
-    raven = await loadImage('/assets/raven.png');
-    bust = await loadImage('/assets/bust.png');
+    raven = await loadImage('./assets/raven.png');
+    bust = await loadImage('./assets/bust.png');
 
-    cloud = await loadImage('/assets/cloud.png');
-    cloud2 = await loadImage('/assets/cloud2.png');
+    cloud = await loadImage('./assets/cloud.png');
+    cloud2 = await loadImage('./assets/cloud2.png');
 
-    eyes = await loadImage('/assets/eyes.gif');
+    eyes = await loadImage('./assets/eyes.gif');
 
-    noai = await loadImage("/assets/noai.png");
+    noai = await loadImage("./assets/noai.png");
 
     ambience.play();
     createCanvas(1000, 800);
