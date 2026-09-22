@@ -251,7 +251,9 @@ function draw() {
         if (currentStanza >= 10) {
             textSize(52);
             fill(255, 0, 0, (currentStanza - 8) * 8 + random(-5, 5));
-            text("Sometimes I hear it calling out to me from the night. It knows her name. It has learned to mimic her voice. I cannot escape it. My only solace is sleep, and I can barely manage a few hours a night. Curse this raven, this Nevermore! I pray it drowns itself in the river or breaks its wings upon a stone! Oh, Lenore, my dear sweet Lenore! If only I could wake from this nightmare, wrapped safely in your arms. But your limbs are cold and shriveled now, just like the claws of this Nevermore, and the hands of Death coming for me too. I will welcome him when he comes. Anything to escape this hell I'm living! Nevermore! Nevermore! Nevermore!", 0, 0, 1000);
+            text(`Sometimes I hear it calling out to me from the night. It knows her name. It has learned to mimic her voice. I cannot escape it. My only solace is sleep, and I can barely manage a few hours a night. Curse this raven, this Nevermore! I pray it drowns itself in the river or breaks its wings upon a stone! Oh, Lenore, my dear sweet Lenore! If only I could wake from this nightmare, wrapped safely in your arms.
+But your limbs are cold and shriveled now, just like the claws of this Nevermore, and the hands of Death coming for me too. I will welcome him when he comes. Anything to escape this hell I'm living! Nevermore! Nevermore! Nevermore!`, 0, 0, 1000);
+
         }
 
         textSize(40);
