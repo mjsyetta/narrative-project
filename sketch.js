@@ -220,7 +220,7 @@ function draw() {
         text("The Raven", 40, 50, 900);
 
         textSize(50);
-        text("by Edgar Allen Poe", 40, 200, 900);
+        text("by Edgar Allan Poe", 40, 200, 900);
 
         text("M.J. Shaffer", 40, 475);
         text("Narrative Media - LMC 6310", 40, 525);
